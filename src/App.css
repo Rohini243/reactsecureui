@@ -1,0 +1,30 @@
+/* Global Reset and Base Styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  border: 5px solid black;
+}
+
+/* Link Styles */
+.linkStyle {
+  color: blue;  /* Set the color of the links */
+  text-decoration: none !important;  /* Remove the underline and ensure it stays removed */
+  cursor: pointer;  /* Change the cursor to a pointer when hovered */
+  display: block;  /* Ensures each link takes up the full width and appears on a new line */
+  margin-bottom: 10px;  /* Adds some space between the links */
+}
+
+.linkStyle:hover {
+  text-decoration: none !important;  /* Keeps the underline removed even on hover */
+}
+
+/* Header Section Styles */
+.headerSection {
+  max-width: 200px; /* Optional: Limits the width of the header section */
+  margin: 0 auto; /* Optional: Centers the header section */
+}
